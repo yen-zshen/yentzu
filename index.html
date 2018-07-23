@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>yentzu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:image" itemprop="image" content="" />
+        <meta property="keywords" content="yentzu">
+        <meta property="og:title" content="yentzu" />
+        <meta property="og:description" content="This is my portfolio">
+        
+        <meta property="og:site_name" content="yentzu" />
+        <meta property="og:url" content="https://www.ddm.org.tw/event/filial/2018/index.html" />
+   
+    <link rel="Shortcut Icon" href="">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css?v061250">
+    <link rel="stylesheet" href="css/style.css?$date">
+    <link rel="stylesheet" href="css/hover.css?$date">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+<!--滑動-->   
+<script type="text/javascript">
+
+        //到TOP
+        $(function(){
+		// 幫 a.abgne_gotoheader 加上 click 事件
+		$('a.abgne_gotoheader').click(function(){
+			// 讓捲軸用動畫的方式移動到 0 的位置
+			var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+			$body.animate({
+				scrollTop: 0
+			}, 1000); //速度
+			return false;
+		});
+	});
+        
+</script>
+  <!--滑動結束--> 
+    
+    
+    <script>
+    //點選後滑動到錨點
+    $(function() {
+        $(".div_md a").click(function() {
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 100 + "px"
+            }, );
+            return false;
+        });
+        //滚动条滚动到指定位置触发下面事件
+        var getDiv_md = $(".div_md");
+        var offSet = getDiv_md.offset().top;
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > offSet) {
+                $(".div_md").css({
+                    "position": "relative",
+                    "left": "0px",
+                    "top": "0px",
+                    "z-index": "2"
+                });
+            } else {
+                $(".div_md").css({
+                    "position": "",
+                    "left": "0px",
+                    "top": "",
+                    "z-index": ""
+                });
+            }
+        })
+    });
+    </script>
+
+
+    <script type="text/javascript">
+    var $date= DateTime.Now.ToString("MMddmm");
+    </script>
+    
+    <script>
+//        new WOW().init(); 
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      
+    animateClass: 'animated', 
+    offset:       160,          
+    mobile:       true,       
+    live:         true,      
+    
+  }
+);
+wow.init();
+    
+    </script>
+    <body>
+      <div class="top font-microsoft text-center text-white pt-5">
+         <div class="name">
+             <img class="name-img" src="img/name.png"  alt="">
+             <img class="name-pc" src="img/word-pc.png" alt="">
+             <img class="name-m" src="img/word-m.png" alt="" >
+             <p class="pt-2">做一件未來的你會感謝的事吧！</p>
+         </div>
+          
+      </div>
+<!--       <img src="img/top01.jpg" class="w-100" alt="">-->
+        <div class="container py-5">
+            <div class="row align-items-center py-5">
+               <div class="col-md-12 text-center text-gray pb-5">
+                   <h4>ABOUT ME</h4>
+               </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/me.jpg" alt="" class="img-me ">
+                </div>
+                <div class="col-md-6 font-microsoft text-gray mt-5 mt-md-0 pl-5 pl-md-0">
+                    沈妍孜（yentzu）／女性<br>
+                    出生日期：1993年9月4日<br>
+                    E-mail：dianna0904@gmail.com<br>
+                    通訊地址：新北市板橋區懷德街139巷45-1號
+                </div>
+            </div>
+        </div>
+        <div class="bg-lightgray">
+            <div class="container font-microsoft text-gray py-5">
+            <div class="row py-5">
+               <div class="col-md-12 text-center text-gray py-5">
+                   <h4>SKILL</h4>
+               </div>
+                <div class="col-md-4 text-center ">
+                   <div class="px-3">
+                    <h5>網頁程式</h5>
+                    Html<br>CSS<br>bootstrap<br>
+                    使用工具：brackets
+                   </div>
+                    
+                </div>
+                <div class="col-md-4 text-center ">
+                   <div class="px-3">
+                    <h5>設計</h5>
+                    photoshop<br>
+                    lightroom<br>
+                    illustrater<br>
+                   </div>
+                    
+                </div>
+                <div class="col-md-4 text-center">
+                   <div class="px-3">
+                    <h5>文書</h5>
+                    word<br>
+                    excel<br>
+                    powerpoint<br>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container font-microsoft py-5 align-items-stretch">
+            <div class="row py-5">
+               <div class="col-md-12 text-center text-gray py-5">
+                   <h4>WORK</h4>
+               </div>
+                <div class="col-md-6 text-center p-3">
+                   <div class="bg-lightgray2 h-100">
+                       <div class="row align-items-center h-100 py-3 pr-3">
+                           <div class="col-md-4">
+                               <p>SATANA<br>
+                               聯野國際公司</p>
+                               <p>
+                                   2016.09<br>
+                                   2017.04
+                               </p>
+                           </div>
+                           <div class="col-md-8 text-left ">
+                               <p>行政助理<br>
+                               各類報表製作、ERP操作...等
+                               </p>
+                               <p>
+                               客服助理<br>
+                               電話、網路、信箱客服接洽與回復
+                               </p>
+                               <p>
+                                設計助理<br>
+                               上架商品圖製作
+                               </p>
+                               
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-6 text-center p-3">
+                    <div class="bg-lightgray2 h-100">
+                       <div class="row align-items-center h-100 py-3 pr-3">
+                           <div class="col-md-4">
+                               <p>法鼓山</p>
+                               <p>
+                                   2017.07<br>
+                                   2018.06
+                               </p>
+                           </div>
+                           <div class="col-md-8 text-left">
+                               <p>電子報製作<br>
+                               每周三、五
+                               </p>
+                               <p>
+                               活動專區製作
+                               </p>
+                               <p>
+                                全球資訊網維護<br>
+                                新聞、文章、照片刊登<br>
+                                活動訊息維護<br>
+                               </p>
+                               <p>
+                                桌布製作<br>
+                                每月兩篇，使用「聖嚴法師108自在語」製作桌布
+                               </p>
+                               
+                           </div>
+                       </div>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid font-microsoft py-5 align-items-stretch">
+            <div class="row py-5">
+               <div class="col-md-12 text-center text-gray py-5">
+                   <h4>INTEREST</h4>
+               </div>
+               
+            </div>
+            
+            <div class="row px-0" >
+                
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/23.jpg" alt="" class="w-100 "  >
+                    <div ><h4>老鷹岩</h4><br>
+                    <p>情人湖最高峰<br>
+                    可看到整個大武崙情人海灘</p>
+                    <p>基隆</p>
+                    </div> 
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/24.jpg" alt="" class="w-100">
+                    <div ><h4>大武崙情人海灘</h4><br>
+                    <p>外木山的海岸</p>
+                    <p>基隆</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/28.jpg" alt="" class="w-100">
+                    <div ><h4>情人湖景觀台</h4><br>
+                    <p>歐風城堡建築的景觀台</p>
+                    <p>基隆</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/01.jpg" alt="" class="w-100">
+                    <div ><h4>寶獅亭</h4><br>
+                    <p>茶壺山步道的最後一座涼亭</p>
+                    <p>九份</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/02.jpg" alt="" class="w-100">
+                    <div ><h4>茶壺山雲海</h4><br>
+                    <p>在地人說，這雲海五月最多，但要遇到不容易，開始起霧後，要耐心等待陽光出現，才會看這這片雲海。</p>
+                    <p>九份</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/20.jpg" alt="" class="w-100">
+                    <div ><h4>摩天輪</h4><br>
+                    <p>兒童樂園的指標！</p>
+                    <p>士林</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/22.jpg" alt="" class="w-100">
+                    <div ><h4>新北歡樂耶誕城</h4><br>
+                    <p>晚上的燈光隧道，照亮了整個城市    </p>
+                    <p>新北市 板橋</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/18.jpg" alt="" class="w-100">
+                    <div ><h4>新月橋</h4><br>
+                    <p>行人與單車族打造的景觀橋</p>
+                    <p>新北市 新莊</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/12.jpg" alt="" class="w-100">
+                    <div ><h4>南怡島</h4><br>
+                    <p>冬季戀歌的拍攝地點</p>
+                    <p>韓國</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/13.jpg" alt="" class="w-100">
+                    <div ><h4>小木屋</h4><br>
+                    <p>交錯的樹木形成的光影</p>
+                    <p>陽明山 蒙馬特咖啡館</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/15.jpg" alt="" class="w-100">
+                    <div ><h4>田間小花</h4><br>
+                    <p>鄉下的田中的小花</p>
+                    <p>新坡</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/09.jpg" alt="" class="w-100">
+                    <div ><h4>剛睡醒的貓</h4><br>
+                    <p>似乎不喜歡我拍她吃飯</p>
+                    <p>陽明山 蒙馬特咖啡館</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/10.jpg" alt="" class="w-100">
+                    <div ><h4>柳橙汁</h4><br>
+                    <p>玻璃杯與玻璃杯</p>
+                    <p>陽明山 蒙馬特咖啡館</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/06.jpg" alt="" class="w-100">
+                    <div ><h4>農禪寺</h4><br>
+                    <p>宗教建築的現在面貌</p>
+                    <p>北投</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/04.jpg" alt="" class="w-100">
+                    <div ><h4>下班</h4><br>
+                    <p>某天下班後的景！</p>
+                    <p>北投</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 px-0 hvr-img fadeInUp wow">
+                    <img src="img/outing/25.jpg" alt="" class="w-100">
+                    <div ><h4>兇兇</h4><br>
+                    <p>他叫兇兇，餵了一年的貓</p>
+                    <p>北投</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+<!--
+        
+        <div class="container-fluid px-0 font-microsoft pt-5">
+           <div class="row px-0">
+           <div class="col-md-12 text-center text-gray py-5">
+                   <h4>INTEREST</h4>
+               </div>
+            <div class="col-lg-7 col-md-6 px-0">
+               <img src="img/interest01.jpg" class="w-100" alt="">
+            </div>
+            <div class="col-lg-5 col-md-6 py-md-5 px-md-3 bg-orange text-white">
+                <h5 class="text-center text-md-left">PHOTO</h5>
+                <p>容器是 Bootstrap 最基本的排版元素，且 當使用我們的網格系統時 是必須的。從響應式、固定寬度容器（表示其最大寬度限制在每一個中斷點）或可變寬度（顯示為 100% 寬）中選擇。
+</p>
+            </div>
+           </div>
+           
+           <div class="row px-0 bg-green">
+            <div class="col-lg-7 col-md-6 px-0 order-md-2">
+                <img src="img/interest02.jpg" class="w-100" alt="">
+            </div>
+             <div class="col-lg-5 col-md-6 py-md-5 px-md-3 order-md-1 bg-green text-white">
+               <h5  class="text-center text-md-right">OUTING</h5>
+               <p>容器是 Bootstrap 最基本的排版元素，且 當使用我們的網格系統時 是必須的。從響應式、固定寬度容器（表示其最大寬度限制在每一個中斷點）或可變寬度（顯示為 100% 寬）中選擇。</p>
+            </div>
+           </div>
+            
+        </div>
+        
+-->
+        <div class="bg-lightgray">
+        <div class="container font-microsoft text-gray py-5">
+            <div class="row">
+               <div class="col-md-12 text-center py-5">
+                   <h4>CONTACT</h4>
+               </div>
+                <div class="col-md-12 text-center">
+                    E-mail：dianna0904@gmail.com<br>
+                    通訊地址：新北市板橋區懷德街139巷45-1號
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
