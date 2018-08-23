@@ -51,6 +51,51 @@
     color:#58B2DC;
     font-size: 1.5rem;
 }
+.job span{
+    background-color: #58B2DC;
+    color: white;
+    padding:0rem 1rem;
+}
+.works{
+    border-left:2px solid  #58B2DC;
+}
+@media(max-width:768px) {
+    .works{
+    border-left:0px solid  #58B2DC;
+}
+}
+.works a{
+    text-decoration: none;
+    color:#4d4d4d;
+}
+.works div{
+    padding:0.25rem;
+    height: 100%;
+    transition:all .5s;
+}
+.works div:hover {
+    background-color: rgba(88, 178, 220, 0.2);
+}
+.works i{
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    transition:all .5s;
+}
+.works div:hover i{
+    color: #58B2DC;
+}
+@media (max-width:768px){
+    .works i{
+    color: #58B2DC;
+}
+    .works div{
+    border-bottom: 1px solid lightgray;
+}
+}
+
+
 /*****時間軸～*****/
 .timeline {
   position: relative;

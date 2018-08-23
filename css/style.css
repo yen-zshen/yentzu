@@ -19,6 +19,8 @@
 }
 .text-gray{
     color: #4d4d4d;
+}.text-lightgray{
+    color: #808080;
 }.text-red{
     color:#904840;
 }.text-orange{
@@ -33,12 +35,14 @@
 
 .a-gray{
     color: gray;
+    transition: all .3s;
 }.a-gray:hover{
     text-decoration: none;
     color:#FAD689;
 }
 .a-white{
     color: white;
+    transition: all .3s;
 }.a-white:hover{
     text-decoration: none;
     color:#FAD689;
@@ -109,6 +113,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', e
 }
 .border-right{
     border-right: 0px solid rgba(128, 128, 128, 0.3);
+}
+.border-bottom{
+    border-bottom: 1px solid #58B2DC;
 }
 
 
