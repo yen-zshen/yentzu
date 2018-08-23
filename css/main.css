@@ -34,6 +34,78 @@
 .name{
     padding-top: 30vh;
 }
+.about_myphoto img{
+    border-radius: 50%;
+    width:100%;
+    max-width: 230px;
+    
+}
+.bg-skill{
+/*
+    border-top:3px solid #58B2DC;
+    border-bottom:3px solid #58B2DC;
+*/
+    background-color: rgba(88, 178, 220, 0.25);
+}
+/*****時間軸～*****/
+.timeline {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.timeline::after { /*線 */
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color:#58B2DC;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  margin-left: -3px;
+    z-index: 0;
+}
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+.timeline-container {
+  padding: 10px 20px;
+  width: 100%;
+}
+}
+
+/* 圈圈 */
+.timeline-container::after { 
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: -9px;
+  background-color: white;
+  border: 2px solid #58B2DC;
+  top: 18px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline-time-big{
+    font-size: 1rem;
+    color:gray;
+    margin-bottom: 1rem;
+}
+.timeline-time-big span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#58B2DC;
+/*    border-bottom: 0.5px solid lightgray;*/
+    margin-bottom: 1rem;
+    margin-right:1rem;
+}
 
 @media (max-width: 575.98px) { 
     .name-pc{
@@ -42,3 +114,5 @@
     display: block;
 }
 }
+
+
