@@ -162,7 +162,7 @@
     padding: 0 1rem;
 }
 .works-content span::before{
-    content: attr(title);
+    content: attr(datatitle);
     position: absolute;
     left:1rem;
     font-size:0.8rem;
