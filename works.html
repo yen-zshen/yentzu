@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>yentzu_Works</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:image" itemprop="image" content="" />
+        <meta property="keywords" content="yentzu">
+        <meta property="og:title" content="yentzu" />
+        <meta property="og:description" content="This is my portfolio">
+        
+        <meta property="og:site_name" content="yentzu" />
+        <meta property="og:url" content="https://www.ddm.org.tw/event/filial/2018/index.html" />
+   
+    <link rel="Shortcut Icon" href="">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css?v230758">
+    <link rel="stylesheet" href="css/style.css?v230758">
+    <link rel="stylesheet" href="css/hover.css?v230758">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    
+<!--滑動-->   
+<script type="text/javascript">
+
+        //到TOP
+        $(function(){
+		// 幫 a.abgne_gotoheader 加上 click 事件
+		$('a.abgne_gotoheader').click(function(){
+			// 讓捲軸用動畫的方式移動到 0 的位置
+			var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+			$body.animate({
+				scrollTop: 0
+			}, 1000); //速度
+			return false;
+		});
+	});
+        
+</script>
+  <!--滑動結束--> 
+    
+    
+    <script>
+    //點選後滑動到錨點
+    $(function() {
+        $(".div_md a").click(function() {
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 100 + "px"
+            }, );
+            return false;
+        });
+        //滚动条滚动到指定位置触发下面事件
+        var getDiv_md = $(".div_md");
+        var offSet = getDiv_md.offset().top;
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > offSet) {
+                $(".div_md").css({
+                    "position": "relative",
+                    "left": "0px",
+                    "top": "0px",
+                    "z-index": "2"
+                });
+            } else {
+                $(".div_md").css({
+                    "position": "",
+                    "left": "0px",
+                    "top": "",
+                    "z-index": ""
+                });
+            }
+        })
+    });
+    </script>
+    
+    <script>
+//        new WOW().init(); 
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      
+    animateClass: 'animated', 
+    offset:       160,          
+    mobile:       true,       
+    live:         true,      
+    
+  }
+);
+wow.init();
+    
+    </script>
+    <body class="font-microsoft">
+     
+<!--home 建-->
+<div class="container-fluid pt-3 fixed-top">
+    <div class="text-right">
+        <a href="index.html" class="a-gray">
+                   <i class="text-big fas fa-home"></i>
+            </a>
+    </div>
+</div>
+       
+
+<div class="container ">
+    <div class="timeline">
+       
+        <div class="py-5 text-center" style="height:1px;">
+            <h4>相關作品</h4>
+        </div>
+<!--1.新春-->
+        <div class="timeline-container " id="w1">
+            <div class="timeline-content">
+                <div class="border-bottom pb-1">
+                   <span class="second-title">法鼓山【新春活動專區】</span><br>
+                    <span class="text-small text-lightgray">2018.01</span>
+                </div>
+                    
+                   <div class="row mt-3">
+                       <div class="col-md-6">      
+<img class="img-fluid" src="img/works/w-1.jpg" alt="">
+                       </div>
+<div class="col-md-6 works-content">
+網站連結：<a class="a-gray" href="http://year.ddm.org.tw/" target="_blank">http://year.ddm.org.tw/</a><br><br>
+<span title="1">使用flex 的響應式排版實做</span><br>
+<span title="2">今年主題為＂平安無事＂，故選用較沉穩的紅色作為主要顏色</span><br>
+<span title="3">使用Photoshop製作上方背景圖片、按鈕圖片</span><br>
+<span title="4">使用Photoshop影像修圖</span><br>
+<span title="5">與各分院的溝通與資料索取</span><br>
+<span title="6">相關圖片製作</span><br>
+<div class="row my-3">
+    <div class="col-6 ">
+        <img src="img/works/newyear-180-2.jpg" alt="">
+        <p><i class="fas fa-angle-up mr-2 text-blue"></i>全球資訊網上所使用的照片</p>
+    </div>
+    <div class="col-12 mt-3">
+        <img class="img-fluid" src="img/works/newyear-fb-6.jpg" alt="">
+        <p><i class="fas fa-angle-up mr-2 text-blue"></i>社群分享所使用的圖片</p>
+    </div>
+</div>
+                       </div>
+                   </div>
+            </div>
+        </div>
+
+<!--2.除夕-->        
+                <div class="timeline-container mt-5 " id="w2">
+            <div class="timeline-content">
+                <div class="border-bottom pb-1">
+                   <span class="second-title">法鼓山【除夕撞鐘專區】</span><br>
+                    <span class="text-small text-lightgray">2018.01</span>
+                </div>
+                    
+                   <div class="row mt-3">
+                       <div class="col-md-6">      
+<img class="img-fluid" src="img/works/w-2.jpg" alt="">
+                       </div>
+<div class="col-md-6 works-content">
+網站連結：<a class="a-gray" href="https://www.ddm.org.tw/event/20090125/html01/content05.html" target="_blank">https://www.ddm.org.tw/event/20090125/html01/content05.html</a><br><br>
+
+<span title="1">使用bootstrap改造原本table版型的網站</span><br>
+<span title="2">使用Photoshop重新製作上方banner</span><br>
+<span title="3">今年資訊更加豐富</span><br>
+<span title="4">因急迫性，只有此網頁有響應式功能</span><br>
+
+<div class="row my-3">
+    <div class="col-12 ">
+        <img class="img-fluid" src="img/works/w-2-2.jpg" alt="">
+        <p><i class="fas fa-angle-up mr-2 text-blue"></i>此為原版網站樣式</p>
+    </div>
+</div>
+                       </div>
+                   </div>
+            </div>
+        </div>
+        
+<!--3.兒童營專-->        
+                <div class="timeline-container mt-5 " id="w3">
+            <div class="timeline-content">
+                <div class="border-bottom pb-1">
+                   <span class="second-title">法鼓山【兒童營專區】</span><br>
+                    <span class="text-small text-lightgray">2018.05</span>
+                </div>
+                    
+                   <div class="row mt-3">
+                       <div class="col-md-6">      
+<img class="img-fluid" src="img/works/w-2.jpg" alt="">
+                       </div>
+<div class="col-md-6 works-content">
+網站連結：<a class="a-gray" href="https://www.ddm.org.tw/event/KID/2018/index.html" target="_blank">https://www.ddm.org.tw/event/KID/2018/index.html</a><br><br>
+
+<span title="1">使用Bootstrap4 的響應式排版實做</span><br>
+<span title="2">使用Photoshop重新製作上方banner</span><br>
+<span title="3">今年資訊更加豐富</span><br>
+<span title="4">因急迫性，只有此網頁有響應式功能</span><br>
+
+<div class="row my-3">
+    <div class="col-12 ">
+        <img class="img-fluid" src="img/works/w-2-2.jpg" alt="">
+        <p><i class="fas fa-angle-up mr-2 text-blue"></i>此為原版網站樣式</p>
+    </div>
+</div>
+                       </div>
+                   </div>
+            </div>
+        </div>
+        
+        
+        <div class="pb-5" style="height:1px;"></div>
+    </div>
+</div>
+
+
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       
+       
+       
+       
+        <div class="" style="background-color:#58B2DC;">
+        <div class="container font-microsoft text-white p-5">
+            <div class="row">
+               <div class="col-md-12 text-center pb-3">
+                   <h4>CONTACT</h4>
+               </div>
+                <div class="col-md-12 text-center">
+                   <a href="index.html" class="a-white">
+                   <i class="fas fa-home"></i>
+                   </a><br>
+                    E-mail：dianna0904@gmail.com<br>
+                    TEL：0955761622
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
