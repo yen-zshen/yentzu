@@ -22,7 +22,7 @@
 }.text-red{
     color:#904840;
 }.text-orange{
-    color:#b07736;
+    color:#FAD689;
 }.text-darkblue{
     color:#255359;
 }.text-green{
@@ -41,7 +41,7 @@
     color: white;
 }.a-white:hover{
     text-decoration: none;
-    color:antiquewhite;
+    color:#FAD689;
 }.a-hvr:hover{
     text-decoration: none;
 }
@@ -52,7 +52,7 @@
     background-color: #904840;
 }
 .bg-orange{
-    background-color:#b07736;
+    background-color:#FAD689;
 }
 .bg-darkblue{
     background-color: #255359;

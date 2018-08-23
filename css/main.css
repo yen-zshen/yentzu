@@ -45,7 +45,11 @@
     border-top:3px solid #58B2DC;
     border-bottom:3px solid #58B2DC;
 */
-    background-color: rgba(88, 178, 220, 0.25);
+    background-color: rgba(88, 178, 220, 0.2);
+}
+.second-title{
+    color:#58B2DC;
+    font-size: 1.5rem;
 }
 /*****時間軸～*****/
 .timeline {
