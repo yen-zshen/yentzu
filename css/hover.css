@@ -22,12 +22,13 @@
     justify-content: center;
     transition: all .5s;
 }
-.hvr-img div:hover{
+.hvr-img div:hover,.hvr-img div:active,.hvr-img div:focus{
     background-color:rgba(0, 0, 0, 0.5);
     align-items: center;
     color:rgb(255, 255, 255);
     
 }
+
 /* Bob */
 @-webkit-keyframes hvr-bob {
   0% {

@@ -67,6 +67,8 @@
 .works a{
     text-decoration: none;
     color:#4d4d4d;
+    width: 100%;
+    height: 100%;
 }
 .works div{
     padding:0.25rem;
