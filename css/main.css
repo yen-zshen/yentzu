@@ -57,7 +57,7 @@
     padding:0rem 1rem;
 }
 .works{
-    border-left:2px solid  #58B2DC;
+    border-left:0.5px solid  lightgray;
 }
 @media(max-width:768px) {
     .works{
@@ -79,19 +79,19 @@
     background-color: rgba(88, 178, 220, 0.2);
 }
 .works i{
-    color: rgba(255, 255, 255, 0);
-    position: absolute;
-    right: 1rem;
-    top: 0;
+    color: gray;
     transition:all .5s;
+    z-index: 99;
+/*    float:right;*/
+    margin-left: 1rem;
 }
-.works div:hover i{
-    color: #58B2DC;
-}
+
 @media (max-width:768px){
+/*
     .works i{
     color: #58B2DC;
 }
+*/
     .works div{
     border-bottom: 1px solid lightgray;
 }
