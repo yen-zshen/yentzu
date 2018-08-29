@@ -13,7 +13,7 @@
     position: absolute;
     top:0px;
     z-index: 20;
-    background-color:rgba(0, 0, 0, 0.01);
+    background-color:rgba(0, 0, 0, 0.0);
     color:rgba(0, 0, 0, 0.0);
     text-align: center;
     vertical-align: middle;
@@ -22,12 +22,21 @@
     justify-content: center;
     transition: all .5s;
 }
-.hvr-img div:hover,.hvr-img div:active,.hvr-img div:focus{
+.hvr-img div:hover,.hvr-img div:active,.hvr-img div:focus,.hvr-active{
     background-color:rgba(0, 0, 0, 0.5);
     align-items: center;
     color:rgb(255, 255, 255);
     
 }
+/*
+.hvr-active{
+    background-color:rgba(0, 0, 0, 0.5);
+    align-items: center;
+    color:rgb(255, 255, 255);
+    
+}
+*/
+
 
 /* Bob */
 @-webkit-keyframes hvr-bob {
