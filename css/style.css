@@ -27,7 +27,7 @@
 }.text-orange{
     color:#FAD689;
 }.text-blue{
-    color:#58B2DC;
+    color:#579572;
 }.text-green{
     color:#42602d;
 }.text-lightblue{
@@ -116,7 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', e
     border-right: 0px solid rgba(128, 128, 128, 0.3);
 }
 .border-bottom{
-    border-bottom: 1px solid #58B2DC;
+    border-bottom: 1px solid #579572;
 }
 
 

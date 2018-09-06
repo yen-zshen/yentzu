@@ -42,17 +42,17 @@
 }
 .bg-skill{
 /*
-    border-top:3px solid #58B2DC;
-    border-bottom:3px solid #58B2DC;
+    border-top:3px solid #579572;
+    border-bottom:3px solid #579572;
 */
-    background-color: rgba(88, 178, 220, 0.2);
+    background-color: rgba(87, 149, 114, 0.2);
 }
 .second-title{
-    color:#58B2DC;
+    color:#579572;
     font-size: 1.5rem;
 }
 .job span{
-    background-color: #58B2DC;
+    background-color: #579572;
     color: white;
     padding:0rem 1rem;
 }
@@ -61,7 +61,7 @@
 }
 @media(max-width:768px) {
     .works{
-    border-left:0px solid  #58B2DC;
+    border-left:0px solid  #579572;
 }
 }
 .works a{
@@ -76,7 +76,7 @@
     transition:all .5s;
 }
 .works div:hover {
-    background-color: rgba(88, 178, 220, 0.2);
+    background-color: rgba(87, 149, 114, 0.2);
 }
 .works i{
     color: gray;
@@ -89,7 +89,7 @@
 @media (max-width:768px){
 /*
     .works i{
-    color: #58B2DC;
+    color: #579572;
 }
 */
     .works div{
@@ -110,7 +110,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background-color:#58B2DC;
+  background-color:#579572;
   top: 0;
   bottom: 0;
   left: 0%;
@@ -139,7 +139,7 @@
   height: 14px;
   left: -9px;
   background-color: white;
-  border: 2px solid #58B2DC;
+  border: 2px solid #579572;
   top: 18px;
   border-radius: 50%;
   z-index: 1;
@@ -152,7 +152,7 @@
 .timeline-time-big span{
     font-size: 1.5rem;
     font-weight: bolder;
-    color:#58B2DC;
+    color:#579572;
 /*    border-bottom: 0.5px solid lightgray;*/
     margin-bottom: 1rem;
     margin-right:1rem;
@@ -168,7 +168,7 @@
     position: absolute;
     left:1rem;
     font-size:0.8rem;
-    color: #58B2DC;
+    color: #579572;
     font-weight: bold;
 }
 
