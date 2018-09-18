@@ -104,6 +104,13 @@
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+.experience{
+    background-image: url(../img/experience.jpg);
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
 .about_myphoto img{
     border-radius: 50%;
     width:100%;
