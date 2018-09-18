@@ -1,6 +1,10 @@
 .font-microsoft{
     font-family:Microsoft JhengHei; 
 }
+.py-10{
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+}
 .text-shadow{
     text-shadow: 0px 0px 3px #000000;
     font-weight: 4;
@@ -25,7 +29,7 @@
 }.text-red{
     color:#904840;
 }.text-orange{
-    color:#FAD689;
+    color:#283444;
 }.text-blue{
     color:#579572;
 }.text-green{
@@ -39,14 +43,14 @@
     transition: all .3s;
 }.a-gray:hover{
     text-decoration: none;
-    color:#FAD689;
+    color:#283444;
 }
 .a-white{
     color: white;
     transition: all .3s;
 }.a-white:hover{
     text-decoration: none;
-    color:#FAD689;
+    color:#283444;
 }.a-hvr:hover{
     text-decoration: none;
 }
@@ -57,7 +61,7 @@
     background-color: #904840;
 }
 .bg-orange{
-    background-color:#FAD689;
+    background-color:#283444;
 }
 .bg-darkblue{
     background-color: #255359;
@@ -126,5 +130,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', e
     }
     .border-right{
     border-right: 1px solid rgba(128, 128, 128, 0.3);
+    }
+    .py-10{
+        padding-bottom: 8rem;
+    padding-top: 8rem;
     }
 } 

@@ -3,17 +3,26 @@
     width: 100%;
 }
 .top{
-    height: 100vh;
-    background-image: url(../img/top01.jpg);
+    height: 65vh;
+    background-image: url(../img/top02.jpg);
     background-attachment:fixed;
-    background-position: center;
+    background-position: bottom center;
     background-origin: border-box;
     background-size:cover;
     background-repeat: no-repeat;
-    
-}.name-img{
+    padding-left: 32%;
+}
+@media(max-width:768px) {
+    .top{
+    background-position: 65% 100%;
+    background-attachment:scroll;
+}
+}
+
+.name-img{
     width:150px;
 }
+/*
 .name-pc{
     max-width: 600px;
     width: 100%;
@@ -31,8 +40,69 @@
         margin-left: auto;
     margin-right: auto;
 }
+*/
 .name{
     padding-top: 30vh;
+}
+.name-title span{
+    height:50px;
+    width:120px;
+    background-color: #283444;
+    z-index: 1;
+    padding: 0 1rem ;
+}
+.name-title span:before{
+    content: attr(data-title);
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    z-index: 1;
+}
+.name-content{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #283444;
+}
+@media(max-width:768px) {
+    .name-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+        line-height: 0.8rem;
+    border-bottom: 0px solid #283444;
+}
+}
+
+.hobby{
+    background-image:url(../img/hobby.jpg);
+    background-attachment: local;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.hobby-content{
+    background-color: rgba(255, 255, 255, 0.75);
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.hobby-a{
+    background-color: #283444;
+    padding: 0 1rem;
+    text-decoration: none;
+    color:lightgray;
+}
+.hobby-a:hover{
+    color: lightgray;
+    background-color: #161f2c;
+    text-decoration: none;
+}
+.learning{
+    background-image:url(../img/learning.jpg);
+    background-attachment: local;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 .about_myphoto img{
     border-radius: 50%;
@@ -42,17 +112,17 @@
 }
 .bg-skill{
 /*
-    border-top:3px solid #579572;
-    border-bottom:3px solid #579572;
+    border-top:3px solid #283444;
+    border-bottom:3px solid #283444;
 */
     background-color: rgba(87, 149, 114, 0.2);
 }
 .second-title{
-    color:#579572;
+    color:#283444;
     font-size: 1.5rem;
 }
 .job span{
-    background-color: #579572;
+    background-color: #283444;
     color: white;
     padding:0rem 1rem;
 }
@@ -61,7 +131,7 @@
 }
 @media(max-width:768px) {
     .works{
-    border-left:0px solid  #579572;
+    border-left:0px solid  #283444;
 }
 }
 .works a{
@@ -89,7 +159,7 @@
 @media (max-width:768px){
 /*
     .works i{
-    color: #579572;
+    color: #283444;
 }
 */
     .works div{
@@ -110,7 +180,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background-color:#579572;
+  background-color:#283444;
   top: 0;
   bottom: 0;
   left: 0%;
@@ -139,7 +209,7 @@
   height: 14px;
   left: -9px;
   background-color: white;
-  border: 2px solid #579572;
+  border: 2px solid #283444;
   top: 18px;
   border-radius: 50%;
   z-index: 1;
@@ -152,7 +222,7 @@
 .timeline-time-big span{
     font-size: 1.5rem;
     font-weight: bolder;
-    color:#579572;
+    color:#283444;
 /*    border-bottom: 0.5px solid lightgray;*/
     margin-bottom: 1rem;
     margin-right:1rem;
@@ -168,7 +238,7 @@
     position: absolute;
     left:1rem;
     font-size:0.8rem;
-    color: #579572;
+    color: #283444;
     font-weight: bold;
 }
 
