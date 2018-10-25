@@ -6,7 +6,7 @@ body{
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
-    height: 620px;
+    height: 65vh;
     padding-top:10rem ;
 }
 .top_title{
@@ -45,6 +45,9 @@ body{
     width:100%;
     max-width:200px;
     margin-top: 1rem;
+}
+.place_row{
+    margin-top:8rem;
 }
 
 .place_block{
@@ -89,4 +92,9 @@ body{
 }
 .place_add{
     clear: both;
+}
+@media(max-width:768px){
+    .place_row{
+        margin-top: 15rem;
+    }
 }
