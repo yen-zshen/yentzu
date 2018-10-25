@@ -1,0 +1,92 @@
+body{
+    font-family: Microsoft JhengHei;
+}
+.top_select{
+    background-image: url(the-urban-landscape-1698285.png);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    padding-top:10rem ;
+}
+.top_title{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.select {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8rem;
+}
+.select select{
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+}
+#selectBar {
+    border:1px solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#selectBar option{
+    padding: 0.5rem;
+    
+}
+.hot_block{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin-top:1.5rem;
+    border-radius: 5px;
+    border:1px solid lightgray;
+}
+.hot_block .btn{
+    width:100%;
+    max-width:200px;
+    margin-top: 1rem;
+}
+
+.place_block{
+ padding: 1rem;
+}
+.place_inblock{
+    border:1px solid lightgray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 0px lightgray;
+    overflow: hidden;
+}
+.place_img{
+    width:100%;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-origin:padding-box;
+    
+}
+.place_content{
+    padding-left: 1rem;
+    padding-right:1rem;
+    position: relative;
+    top:-3rem;
+    height:200px;
+    overflow: hidden;
+    
+}
+.place_title{
+    font-size: 2rem;
+    font-weight: 100;
+    color:white;
+    float: left;
+}
+.place_zone{
+    color:white;
+    font-weight: bold;
+    float: right;
+    vertical-align: bottom;
+}
+.place_add{
+    clear: both;
+}
